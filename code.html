@@ -1,88 +1,94 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Kerry Woodall's Homepage | Golf</title>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<script id="tailwind-config">
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Kerry Woodall's Homepage | Golf</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
             theme: {
                 extend: {
                     colors: {
-                        "primary": "#13ec5b",
+                        primary: "#13ec5b",
                         "background-light": "#f6f8f6",
                         "background-dark": "#102216",
                         "earth-sand": "#e8e5d5",
                         "earth-slate": "#2d3e33",
                     },
                     fontFamily: {
-                        "display": ["Lexend"]
+                        display: ["Lexend"],
                     },
                     borderRadius: {
-                        "DEFAULT": "0.5rem",
-                        "lg": "1rem",
-                        "xl": "1.5rem",
-                        "full": "9999px"
+                        DEFAULT: "0.5rem",
+                        lg: "1rem",
+                        xl: "1.5rem",
+                        full: "9999px",
                     },
                 },
             },
-        }
+        };
     </script>
-<style type="text/tailwindcss">
+    <style type="text/tailwindcss">
         body {
-            font-family: 'Lexend', sans-serif;
-        }
-        .hero-full-screen {
-            height: 100vh;
-        }
-    </style>
+                font-family: "Lexend", sans-serif;
+            }
+            .hero-full-screen {
+                height: 100vh;
+            }
+        </style>
 </head>
+
 <body class="bg-background-dark text-gray-100 antialiased font-display overflow-hidden">
-<nav class="fixed top-0 left-0 w-full z-50 bg-transparent border-b border-white/5">
-<div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
-<div class="flex items-center gap-2">
-<div class="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center backdrop-blur-sm border border-white/10">
-<span class="material-icons text-primary">sports_golf</span>
-</div>
-<span class="text-xl font-bold tracking-tight uppercase text-white">Kerry<span class="text-primary">Woodall</span></span>
-</div>
+    <nav class="fixed top-0 left-0 w-full z-50 bg-transparent border-b border-white/5">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div
+                    class="w-10 h-10 bg-primary/20 rounded-lg flex items-center justify-center backdrop-blur-sm border border-white/10">
+                    <span class="material-icons text-primary">sports_golf</span>
+                </div>
+                <span class="text-xl font-bold tracking-tight uppercase text-white">Kerry<span
+                        class="text-primary">Woodall</span></span>
+            </div>
+        </div>
+    </nav>
+    <section class="hero-full-screen relative w-full overflow-hidden flex items-center justify-center">
+        <img alt="Beautiful Golf Fairway" class="absolute inset-0 w-full h-full object-cover"
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCe9YDI2jNAxo4g5EnimBEAB_sV-RLugWMW0C3pCmQ9l1i2-rFSHtlUUSYQeJCv_e6ya90pxFYxEU3RGq9VeCCYqVROCy4tk5tIv6sM_06pSBgZraK0Pqm6D3bncxAIJL74u-xTzH2q1k3RF-HODlQHwpgFLxC9t1WmWaFwg9WvOZgb78sb_yRgl1v5vls0U_cb72MGd0sZiw3Przn1ULe-Z77bohcOIWAvneZbBYM1EEWGR-6laGWWvlEWsCiIOHljgu9Vz7b2Gw" />
+        <div
+            class="absolute inset-0 bg-gradient-to-b from-background-dark/60 via-background-dark/20 to-background-dark/70">
+        </div>
+        <div class="relative z-10 max-w-4xl px-6 text-center">
+            <h1 class="text-6xl md:text-8xl font-extrabold text-white leading-tight mb-2 tracking-tight">
+                Kerry Woodall's
+                <span class="text-white block md:inline">Homepage</span>
+            </h1>
 
+            <div class="flex flex-col items-center">
+                <a href="indexcode.html"
+                    class="px-12 py-3 border border-white/40 text-white font-medium rounded-full hover:bg-white/10 backdrop-blur-sm transition-all text-sm tracking-widest uppercase">
+                    Enter
+                </a>
+            </div>
+        </div>
+        <div
+            class="absolute bottom-10 left-10 p-6 bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl hidden md:flex items-center gap-6 z-20">
+            <div class="text-center"></div>
 
-</div>
-</nav>
-<section class="hero-full-screen relative w-full overflow-hidden flex items-center justify-center">
-<img alt="Beautiful Golf Fairway" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCe9YDI2jNAxo4g5EnimBEAB_sV-RLugWMW0C3pCmQ9l1i2-rFSHtlUUSYQeJCv_e6ya90pxFYxEU3RGq9VeCCYqVROCy4tk5tIv6sM_06pSBgZraK0Pqm6D3bncxAIJL74u-xTzH2q1k3RF-HODlQHwpgFLxC9t1WmWaFwg9WvOZgb78sb_yRgl1v5vls0U_cb72MGd0sZiw3Przn1ULe-Z77bohcOIWAvneZbBYM1EEWGR-6laGWWvlEWsCiIOHljgu9Vz7b2Gw"/>
-<div class="absolute inset-0 bg-gradient-to-b from-background-dark/60 via-background-dark/20 to-background-dark/70"></div>
-<div class="relative z-10 max-w-4xl px-6 text-center">
+            <div class="w-px h-10 bg-white/10"></div>
+            <div class="text-center"></div>
+        </div>
 
-<h1 class="text-6xl md:text-8xl font-extrabold text-white leading-tight mb-2 tracking-tight">
-            Kerry Woodall's <span class="text-white block md:inline">Homepage</span>
-</h1>
+        <div class="absolute bottom-10 right-10 flex gap-4 z-20"></div>
+    </section>
+</body>
 
-<div class="flex flex-col items-center">
-<button class="px-12 py-3 border border-white/40 text-white font-medium rounded-full hover:bg-white/10 backdrop-blur-sm transition-all text-sm tracking-widest uppercase">
-                Enter
-            </button>
-</div>
-</div>
-<div class="absolute bottom-10 left-10 p-6 bg-white/5 backdrop-blur-xl border border-white/10 rounded-xl shadow-2xl hidden md:flex items-center gap-6 z-20">
-<div class="text-center">
-
-
-<div class="w-px h-10 bg-white/10"></div>
-<div class="text-center">
-
-
-</div>
-        
-<div class="absolute bottom-10 right-10 flex gap-4 z-20">
-
-
-</div>
-</section>
-
-</body></html>
+</html>
