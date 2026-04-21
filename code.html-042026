@@ -100,7 +100,7 @@
 <!-- Center Content -->
 <div class="relative z-10 flex flex-col items-center text-center px-6">
 <h1 class="font-headline mb-6 max-w-full text-4xl md:text-6xl font-extralight" style="color: #333333; font-weight: 200;">Kerry Woodall's Homepage</h1>
-<a class="group flex items-center gap-2 hover:opacity-80 transition-opacity" href="https://www.google.com">
+<a class="group flex items-center gap-2 hover:opacity-80 transition-opacity" href="indexcode.html">
 <span class="font-headline font-bold text-sm tracking-wider" style="color: #333333;">Enter</span>
 <span class="material-symbols-outlined text-lg group-hover:translate-x-1 transition-transform" style="color: #333333;">arrow_forward</span>
 </a>
